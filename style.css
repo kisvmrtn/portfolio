@@ -63,6 +63,11 @@ nav a:hover {
 }
 #icons {
   width: 25px;
+  vertical-align: middle;
+}
+#cont_icons {
+  width: 25px;
+  vertical-align: -7px;
 }
 #fat {
   font-weight: bold;
