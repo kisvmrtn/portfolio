@@ -27,6 +27,7 @@ header {
 section {
   background-color: #121212;
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: 1fr;
 }
 article {
@@ -36,12 +37,20 @@ article {
 article p {
   padding: 15px 30px;
 }
+article li {
+  list-style: none;
+  border-left: 1px solid #977be3;
+  padding-left: 10px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
 nav {
   border-top: 1px solid #575757;
 }
 nav ul {
   list-style: none;
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
   margin: 10px;
