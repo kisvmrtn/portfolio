@@ -37,12 +37,25 @@ article {
 article p {
   padding: 15px 30px;
 }
+article ul {
+  padding-bottom: 15px;
+}
 article li {
   list-style: none;
   border-left: 1px solid #977be3;
   padding-left: 10px;
   margin-left: 40px;
   margin-top: 20px;
+}
+.skills {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 15px;
+}
+.skills li {
+  border: none;
+  list-style: square;
 }
 nav {
   border-top: 1px solid #575757;
