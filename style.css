@@ -4,10 +4,25 @@
   box-sizing: border-box;
   color: #977be3;
   font-family: "League Spartan", sans-serif;
+  font-size: large;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+h1 {
+  border-left: #977be3 3px solid;
+  padding-left: 10px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+body {
+  background-color: #3f3f3f;
 }
 main {
   max-width: 1000px;
   margin: auto;
+}
+header {
+  padding: 10px;
 }
 section {
   background-color: #121212;
@@ -15,25 +30,14 @@ section {
   grid-template-columns: 1fr;
 }
 article {
-  /* background-color: #495057; */
-  background-color: #121212;
+  background-color: #282828;
   border-top: 1px solid #575757;
 }
-aside {
-  padding: 10px;
+article p {
+  padding: 15px 30px;
 }
-#profilkep {
-  max-height: 150px;
-  border-radius: 150px;
-  border: 2px #977be3 solid;
-}
-#icons {
-  width: 25px;
-}
-.kepek {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  text-align: center;
+nav {
+  border-top: 1px solid #575757;
 }
 nav ul {
   list-style: none;
@@ -51,4 +55,26 @@ nav a:hover {
   color: #4631cf;
   border-radius: 10px;
   transition: 0.6s;
+}
+#profilkep {
+  max-height: 110px;
+  border-radius: 150px;
+  border: 2px #977be3 solid;
+}
+#icons {
+  width: 25px;
+}
+#fat {
+  font-weight: bold;
+}
+.kepek {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  #profilkep {
+    max-height: 150px;
+  }
 }
