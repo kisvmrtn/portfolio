@@ -132,3 +132,18 @@ nav a:hover {
     max-height: 150px;
   }
 }
+@media print {
+  @page {
+    size: auto;
+    margin: 0;
+  }
+  * {
+    color: #111528;
+  }
+  .contact_light {
+    display: grid;
+  }
+  .contact_dark {
+    display: none;
+  }
+}

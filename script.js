@@ -17,3 +17,7 @@ function themeSwitch() {
     imgLight.style.display = "none";
   }
 }
+
+function printPage() {
+  window.print();
+}
